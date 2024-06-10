@@ -1,0 +1,22 @@
+{
+  "name": "fiza_countdown_timer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "publishConfig": {"access": "public"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fiza",
+  "license": "MIT",
+  "description": "A simple and interactive CLI-based countdown timer application that allows users to set a timer for a specified duration and receive alerts when the time is up.",
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "inquire": "^0.4.8"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
